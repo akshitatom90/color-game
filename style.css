@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --color-first: yellow;
+  --color-second: red;
+  --color-third: orange;
+  --color-fourth: purple;
+  --color-fifth: green;
+  --color-sixth: blue;
+  --color-seventh: brown;
+  --color-eigth: pink;
+  --color-ninth: gray;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.main-container {
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 10px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  place-content: center;
+  text-align: center;
+  gap: 0.5rem;
+  padding: 0  2rem;
+
+}
+
+.container {
+  background-color: black;
+  border-radius: 10%;
+  font-size: 1.5rem;
+}
+
+.yellow {
+  background-color: var(--color-first);
+}
+
+.red {
+  background-color: var(--color-second);
+}
+
+.orange {
+  background-color: var(--color-third);
+}
+
+.purple {
+  background-color: var(--color-fourth);
+}
+
+.green {
+  background-color: var(--color-fifth);
+}
+
+.blue {
+  background-color: var(--color-sixth);
+}
+
+.brown {
+  background-color: var(--color-seventh);
+}
+
+.pink {
+  background-color: var(--color-eigth);
+}
+
+.grey {
+  background-color: var(--color-ninth);
+}
